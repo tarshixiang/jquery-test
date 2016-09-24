@@ -29,7 +29,7 @@ $(function(){
 	
 	$('input[name=user]').blur(function(){
 		var user = $("input[name='user']").val();
-		$.get("../php/checkName.php",{"name": user},function(data){
+		$.get("../php/checkName.php",{name: user},function(data){
 			if(data && data.code==0 && user!=""){							
 				console.log(data.msg);
 				
