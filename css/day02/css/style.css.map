@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,GAAG;EACC,KAAK,EALA,MAAM;;AASX,KAAC;EACG,KAAK,EAVJ,MAAM;;AAWP,UAAM;EACF,KAAK,EAAE,KAAK",
+"sources": ["../../../sass/day02/css/style.scss"],
+"names": [],
+"file": "style.css"
+}

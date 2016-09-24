@@ -1,0 +1,28 @@
+$color : orange !default ;
+
+
+
+div{
+    color: $color;
+    span{
+        $color : red ;
+    }   
+    p{
+        color: $color;
+        &:hover{
+            color: black;
+        }
+    }
+}
+
+@mixin classstyle($raduis){
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    background: $raduis;
+}
+
+
+.box {
+    @include classstyle("red");
+}

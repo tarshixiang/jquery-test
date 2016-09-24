@@ -1,0 +1,16 @@
+div {
+  color: orange;
+}
+div p {
+  color: orange;
+}
+div p:hover {
+  color: black;
+}
+
+.box {
+  border: 2px solid red;
+  width: 200px;
+  height: 200px;
+  background: "red";
+}

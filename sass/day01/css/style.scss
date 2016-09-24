@@ -1,0 +1,19 @@
+$body-width : 200px ;
+$body-height : 300px;
+
+body{
+    width: $body-width;
+    height: $body-height;
+    
+}
+$w : red ;
+$word : 30px;
+$word : 50px !default;
+.box{
+    color : $w;
+    font-size: $word;
+}
+
+
+
+
