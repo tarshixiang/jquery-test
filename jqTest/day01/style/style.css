@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../img/bg.jpg);
+	background-size:cover ;
+}
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#signIn{
+	width: 350px;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 50px auto;
+	border: 2px solid cadetblue;
+	box-shadow: 0 0 20px white;
+}
+input {
+	width: 250px;
+	height: 30px;
+	border: 0;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	
+}
+button{
+	width: 40px;
+	border-radius: 5px;
+	margin-left: 150px ;
+	outline: none;
+	
+}
+
+span{
+	width: 60px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	color: black;
+}
+button{
+	position: absolute;
+	left: 50%;
+	width: 60px;
+	margin-left: -30px;
+
+}
+
+
+
+
+
+
+
+
